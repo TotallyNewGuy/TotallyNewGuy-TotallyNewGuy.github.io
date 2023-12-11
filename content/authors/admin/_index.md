@@ -53,7 +53,7 @@ education:
   - area: Bachelor of Engineer in Urban Planning
     institution: Beijing University of Civil Engineering & Architecture
     date_start: 2015-09-01
-    date_end: 2020-06-31
+    date_end: 2020-06-30
     summary: |
       GPA: 3.5/4.0
 
