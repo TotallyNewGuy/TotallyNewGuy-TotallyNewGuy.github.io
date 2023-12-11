@@ -13,7 +13,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Résumé
-        url: uploads/my_resume.pdf
+        url: uploads/latest_resume.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
