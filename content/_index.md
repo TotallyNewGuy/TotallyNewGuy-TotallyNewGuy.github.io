@@ -12,8 +12,8 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-      text: Download Résumé
-      url: uploads/capstone_paper_latest.pdf
+        text: Download Résumé
+        url: uploads/resume.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -28,15 +28,15 @@ sections:
       # Hugo date format
       date_format: "January 2006"
       # Education or Experience section first?
-      is_education_first: true
+      is_education_first: false
   - block: skills
     content:
-      title: Skills & Hobbies
+      title: Research Interests
       username: admin
-  # - block: awards
-  #   content:
-  #     title: Awards
-  #     username: admin
+  - block: awards
+    content:
+      title: Awards
+      username: admin
   - block: languages
     content:
       title: Languages
