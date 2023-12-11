@@ -42,6 +42,7 @@ education:
     date_end: 2023-12-31
     summary: |
       GPA: 3.9/4.0
+
       Thesis on _Using a Language Model's Perplexity for Evaluating a Trajectory's Outlierness_. Supervised by [Prof. Mario Nascimento](https://www.khoury.northeastern.edu/people/mario-nascimento/) and [Prof. Michal Aibin](https://www.khoury.northeastern.edu/people/michal-aibin/).
     button:
       text: "Read Thesis"
