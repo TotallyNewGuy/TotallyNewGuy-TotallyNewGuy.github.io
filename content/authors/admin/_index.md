@@ -60,7 +60,7 @@ education:
       - Urban Geography
       - The Principle of Geographic Information System
 work:
-  - position: Capstone Research Group Leader
+  - position: Capstone Research
     company_name: Northeastern University
     company_url: ""
     company_logo: ""
@@ -138,25 +138,25 @@ skills:
     items:
       - name: Java
         description: ""
-        percent: 80
+        percent: 90
         icon: code-bracket
       - name: Python
         description: ""
-        percent: 100
+        percent: 90
         icon: chart-bar
       - name: JavaScript
         description: ""
-        percent: 40
+        percent: 80
         icon: circle-stack
       - name: SQL
         description: ""
-        percent: 40
+        percent: 70
         icon: circle-stack
       - name: Spring
         description: ""
-        percent: 40
+        percent: 85
         icon: circle-stack
-  - name: Interest
+  - name: Research Interests
     color: "#eeac02"
     color_border: "#f0bf23"
     items:
@@ -171,21 +171,18 @@ skills:
       - name: Smart City
         description: ""
         percent: 80
-        icon: camera
       - name: Deep Learning
         description: ""
         percent: 80
-        icon: camera
       - name: IoT Network
         description: ""
         percent: 70
-        icon: camera
 
 languages:
   - name: English
     percent: 80
   - name: Chinese
-    percent: 100
+    percent: 99
 
 # Awards.
 #   Add/remove as many awards below as you like.
