@@ -70,11 +70,11 @@ work:
     date_start: 2023-08-01
     date_end: ""
     summary: |2-
-      - Leveraged perplexity from a large language model to identify and mitigate outlier trajectories, helping find taxi fraud or changes in self-driving car routes.
-      - Constructed a customized vocabulary using over 50,000 GPS coordinates and created a flexible map linking words to locations using their features.
+      - Leveraged perplexity of large language models like BERT to identify outlier trajectories, contributing to the detection of taxi fraud or changes in self-driving car routes.
+      - Constructed a customized vocabulary using over 50,000 GPS coordinates and created a adaptive mapping linking coordinates to word using their spatial distribution and density.
       - Treated each trajectory as a sentence and employed a 7:3 split for training, and testing data, with manual addition of missing elements and drift to augment the training data.
-      - Introduced static semantic mapping and relative position bias to enhance the model's spatial recognition. Trained a Transformer encoder with BERT-style tasks and achieved an ~80% AUC and ~70% F1 score.
-      - Calculated sentence perplexity on the dev set, employing K-means for binary classification to identify outlier trajectories, obtaining prediction results better than the traditional models.
+      - Applied spatial awareness and relative position bias to enhance the model's spatial recognition. Training with Transformer encoder with BERT-style tasks achieved an ~0.8 AUC and ~0.7 F1 score.
+      - Calculated sentence perplexity on the test set, employing K-means for binary classification to identify outlier trajectories. F1 score of the prediction results surpasses the state-of-the-art model by 9% to 16%.
 
   - position: Research Assistant
     company_name: MIT Transit Lab
@@ -86,7 +86,7 @@ work:
       - Collaborated with Chicago Transit Authority, funded by the Department of Energy, to address public transportation service reliability issues, employing machine learning algorithms for bus scheduling. 
       - Established a cloud computing platform using Flask, Cloud Task and Cloud Functions in Google Cloud Platform to store and continuously update real-time data, including bus coordinates, speed, and arrival time.
       - Utilized Data Frame Algebra in Pandas to merge real-time data and calculate service reliability metrics such as load balancing, waiting time, and cycle time. Updated bus scheduling strategy every minute, and offered an interactive interface for experts to evaluate scheduling strategy in real-time using React.js.
-      - Successfully ran the system on the smartphones of three researchers and dozens of dispatchers for two months, collecting over 10k high-quality data points to improve machine learning performance. The standard deviation of loads in the morning and afternoon was reduced by 8.1% and 18.3%, respectively.
+      - Successfully ran the system on the smartphones of three researchers and dozens of dispatchers for two months, collecting over 10k high-quality data points to improve machine learning performance.
 
   - position: Research Talk
     company_name: Northeastern University
@@ -218,4 +218,4 @@ languages:
 #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-As a student with dual majors in Computer Science and Urban Planning , I am committed to integrating A.I. to enhance our living environment. I am set to graduate from Northeastern University this year. Currently, I am serving as a research assistant at MIT Transit Lab, where I am working on utilizing machine learning to optimize bus dispatching. Recently, I completed my capstone research, introducing a novel approach that enables accurate and efficient identification of trajectory outliers.
+As a student with dual majors in Computer Science and Urban Planning , I am committed to integrating A.I. to enhance our living environment. I am set to graduate from Northeastern University this year. Currently, I am serving as a research assistant at MIT Transit Lab, where I am working on utilizing machine learning to optimize bus dispatching. Recently, I completed my capstone research, introducing a novel approach that enables accurate and efficient identification of trajectory outliers. My research interests are Spatio-Temporal Data Mining, Intelligent Transportation System, Smart City, Deep Learning, IoT Network
