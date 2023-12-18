@@ -43,11 +43,15 @@ education:
     summary: |
       GPA: 3.9/4.0
 
-      Thesis: _Using a Language Model's Perplexity for Evaluating a Trajectory's Outlierness_. Advised by [Prof. Mario Nascimento](https://www.khoury.northeastern.edu/people/mario-nascimento/) and [Prof. Michal Aibin](https://www.khoury.northeastern.edu/people/michal-aibin/).
-
-      Talk: _A Semantic Parsing Method for SQL using Large Language Models with Data Augmentation_ ([slides](https://docs.google.com/presentation/d/1p6mkSGGIAY6-vZUgrB0VX6h-uHQuTmW8ZNS6YAsKHnM/edit?usp=sharing)). Advised by [Prof. Jeongkyu Lee](https://www.khoury.northeastern.edu/people/jeongkyu-lee/).
+      Thesis: _Using a Language Model's Perplexity for Evaluating a Trajectory's Outlierness_. Advised by Prof. [Mario Nascimento](https://www.khoury.northeastern.edu/people/mario-nascimento/) and Prof. [Michal Aibin](https://www.khoury.northeastern.edu/people/michal-aibin/).
     button:
       text: "Read Thesis"
+      url: "https://totallynewguy.github.io/uploads/capstone_paper.pdf"
+
+      Talk: _A Semantic Parsing Method for SQL using Large Language Models with Data Augmentation_ ([slides](https://docs.google.com/presentation/d/1p6mkSGGIAY6-vZUgrB0VX6h-uHQuTmW8ZNS6YAsKHnM/edit?usp=sharing)). Advised by Prof. [Jeongkyu Lee](https://www.khoury.northeastern.edu/people/jeongkyu-lee/).
+    
+    button:
+      text: "Read Thesis2"
       url: "https://totallynewguy.github.io/uploads/capstone_paper.pdf"
 
   - area: Bachelor of Engineer in Urban Planning
@@ -70,11 +74,11 @@ work:
     date_start: 2023-08-01
     date_end: ""
     summary: |2-
-      - Leveraged perplexity of large language models like BERT to identify outlier trajectories, contributing to the detection of taxi fraud or changes in self-driving car routes.
-      - Constructed a customized vocabulary using over 50,000 GPS coordinates and created a adaptive mapping linking coordinates to word using their spatial distribution and density.
-      - Treated each trajectory as a sentence and employed a 7:3 split for training, and testing data, with manual addition of missing elements and drift to augment the training data.
-      - Applied spatial awareness and relative position bias to enhance the model's spatial recognition. Training with Transformer encoder with BERT-style tasks achieved an ~0.8 AUC and ~0.7 F1 score.
-      - Calculated sentence perplexity on the test set, employing K-means for binary classification to identify outlier trajectories. F1 score of the prediction results surpasses the state-of-the-art model by 9% to 16%.
+      - Leveraged perplexity of large language models like BERT to identify trajectory outliers, contributing to the detection of taxi fraud or changes in self-driving car routes.
+      - Constructed a customized vocabulary using over 50,000 GPS coordinates and created a adaptive mapping, which link coordinates to words using their spatial distribution and density.
+      - Treated each trajectory as a sentence and employed a 7:3 split for training and testing data, introducing artificially missing and drifting coordinates to augment the training data.
+      - Applied 16 × 16 road netwrok and relative position bias to enhance the model's spatial awareness. Training with Transformer encoder with BERT-style tasks achieved an ~0.8 accuracy and ~0.7 F1 score.
+      - Calculated perplexity score of unseen trajectory, employing K-means for binary classification on scores to identify outliers. F1 score of the prediction results surpasses the state-of-the-art model by 9% to 16%.
 
   - position: Research Assistant
     company_name: MIT Transit Lab
@@ -83,10 +87,10 @@ work:
     date_start: 2023-08-01
     date_end: ""
     summary: |
-      - Collaborated with Chicago Transit Authority, funded by the Department of Energy, to address public transportation service reliability issues, employing machine learning algorithms for bus scheduling. 
-      - Established a cloud computing platform using Flask, Cloud Task and Cloud Functions in Google Cloud Platform to store and continuously update real-time data, including bus coordinates, speed, and arrival time.
-      - Utilized Data Frame Algebra in Pandas to merge real-time data and calculate service reliability metrics such as load balancing, waiting time, and cycle time. Updated bus scheduling strategy every minute, and offered an interactive interface for experts to evaluate scheduling strategy in real-time using React.js.
-      - Successfully ran the system on the smartphones of three researchers and dozens of dispatchers for two months, collecting over 10k high-quality data points to improve machine learning performance.
+      - Collaborated with Chicago Transit Authority, funded by the Department of Energy, to address public transportation service reliability issues, employing machine learning algorithms for bus scheduling.
+      - Established a cloud computing platform using Flask, Cloud Task and Cloud Functions in Google Cloud Platform to store and continuously update bus status, including GPS coordinates, speed, and arrival time.
+      - Utilized Data Frame Algebra in Pandas to merge these real-time data and calculate service reliability metrics such as load balancing, waiting time, and cycle time. Updated bus scheduling strategy every minute, and offered a web application for experts to evaluate scheduling strategy using React.js.
+      - Successfully operated the system for three researchers and dozens of dispatchers for months, collecting over 10,000 high-quality data points to improve algorithm performance.
 
   - position: Research Talk
     company_name: Northeastern University
