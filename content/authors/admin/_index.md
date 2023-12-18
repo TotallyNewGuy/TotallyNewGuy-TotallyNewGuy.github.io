@@ -223,4 +223,4 @@ As a student with dual majors in Computer Science and Urban Planning , I am comm
 
 Currently, I am serving as a research assistant at MIT Transit Lab, where I am working on utilizing machine learning to optimize bus dispatching. Recently, I am working on my capstone research, introducing a novel approach that enables accurate and efficient identification of trajectory outliers using Large Language Model.
 
-My research interests are Spatio-Temporal Data Mining, Intelligent Transportation System, Smart City, Deep Learning, IoT Network and cloud computing.
+My research interests are Spatio-Temporal Data Mining, Intelligent Transportation System, Smart City, Deep Learning, IoT Network and Cloud Computing.
