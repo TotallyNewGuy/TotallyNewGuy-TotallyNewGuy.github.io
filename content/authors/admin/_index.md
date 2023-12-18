@@ -43,15 +43,12 @@ education:
     summary: |
       GPA: 3.9/4.0
 
-      Thesis: _Using a Language Model's Perplexity for Evaluating a Trajectory's Outlierness_. Advised by Prof. [Mario Nascimento](https://www.khoury.northeastern.edu/people/mario-nascimento/) and Prof. [Michal Aibin](https://www.khoury.northeastern.edu/people/michal-aibin/).
-    button:
-      text: "Read Thesis"
-      url: "https://totallynewguy.github.io/uploads/capstone_paper.pdf"
-
       Talk: _A Semantic Parsing Method for SQL using Large Language Models with Data Augmentation_ ([slides](https://docs.google.com/presentation/d/1p6mkSGGIAY6-vZUgrB0VX6h-uHQuTmW8ZNS6YAsKHnM/edit?usp=sharing)). Advised by Prof. [Jeongkyu Lee](https://www.khoury.northeastern.edu/people/jeongkyu-lee/).
     
+      Thesis: _Using a Language Model's Perplexity for Evaluating a Trajectory's Outlierness_. Advised by Prof. [Mario Nascimento](https://www.khoury.northeastern.edu/people/mario-nascimento/) and Prof. [Michal Aibin](https://www.khoury.northeastern.edu/people/michal-aibin/).
+
     button:
-      text: "Read Thesis2"
+      text: "Read Thesis"
       url: "https://totallynewguy.github.io/uploads/capstone_paper.pdf"
 
   - area: Bachelor of Engineer in Urban Planning
