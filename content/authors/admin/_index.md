@@ -93,8 +93,8 @@ work:
     company_name: Northeastern University
     company_url: ""
     company_logo: ""
-    date_start: 2023-10-31
-    date_end: 2023-07-01
+    date_start: 2023-07-01
+    date_end: 2023-10-31
     summary: |
       -	Employed abstract syntax tree to parse SQL into various components and implemented a method for generating synthetic SQL based on adjustable semantic rules.
       -	Trained a large language model on the synthetic dataset to automate SQL segmentation and labeling, treating it as a Named Entity Recognition task.
